@@ -9,7 +9,7 @@ root.geometry("600x400")
 root.resizable(False, False)
 root.title('YouTube Video Downloader')
 
-SAVE_PATH = "/Users/olgudegirmenci/Desktop/Video"
+SAVE_PATH = os.path.expanduser("~/Desktop/Video")
 
 # store email address and password
 link = tk.StringVar()
